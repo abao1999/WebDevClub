@@ -1,0 +1,129 @@
+*{
+    font-family:sans-serif;
+}
+body{
+    margin:0 auto;
+}
+.ArmyStrong{
+    color:springgreen;
+    font-size:20px;
+}
+textarea, iframe {
+    border: 2px solid #ddd;
+    height: 500px;
+    width: 100%;
+    margin:0 auto;
+    background:white;
+}
+textarea{
+    font-size:12px;
+    font-family:Monaco, Monospace;
+    color:white;
+    background:black;
+    border:2px solid black;
+}
+#runButton{
+    margin-left:40%;
+    margin-top:10px;
+    text-align:center;
+    width:120px;
+    height:40px;
+    font-size:16px;
+    color:springgreen;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:4px;
+    border:2px;
+    background: -webkit-linear-gradient(#7C7C7C, #303030); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#7C7C7C, #303030); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#7C7C7C, #303030); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#7C7C7C, #303030); /* Standard syntax */;
+}
+.editorRegion{
+    width:48.5%; //626px
+    padding:0;
+    margin-left:4px;
+    min-width:600px;
+}
+#outputBox{
+    margin-left:50%;
+    width:49%; //630px
+    min-width:600px;
+}
+#codeEditorSection{
+    height:100vh;
+    width:100%;
+    margin: 0 auto;
+    overflow-x:auto;
+    background:black;
+}
+.hidden{
+    display:none;
+}
+.extendSome{
+    height:110vh;
+}
+#optionsMenu{
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:1px solid green;
+}
+#expansionDescription{
+    color:springgreen;
+    position:absolute;
+    margin-top:-20px;
+    margin-left:140px;
+}
+.fa-play, .fa-font, .fa-gear{
+    color:springgreen;
+}
+#font-adjust{
+    width:30px;
+    height:10px;
+}
+#rangevalue{
+    color:white;
+}
+.growIFrame{
+    width:203.5%;
+    height:100vh;
+    position:absolute;
+    margin-left:-102%;
+    margin-top:-364px;
+    border:0px;
+}
+.disableScroll{
+    overflow:hidden;
+}
+#questionMark1{
+    padding-left:4px;
+    padding-right:4px;
+    margin-top:6px;
+    border-radius:50%; 
+    background:lightgray;
+    font-size:14px;
+    color:black;
+    float:right;
+}
+.reAbsolutify{
+    position:absolute;
+}
+.Topify{
+    margin-top:-550px;
+}
+@media all and (min-width:1000px){
+    #runButton{
+        margin-left:500px;
+    }
+}
+@media all and (max-width:1279px){
+    .editorRegion{
+        width:626px;
+    }
+    #outputBox{
+        margin-left:644px;
+        width:630px;
+        min-width:600px;
+    }
+}

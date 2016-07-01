@@ -1,0 +1,135 @@
+body{
+    color:black;
+    background:url("../images/texture1.jpg");
+    background-repeat:repeat;
+    /**
+    background:url("http://eliesgrill.com/wp-content/uploads/2014/12/102856__texture-stripes-dark-blue_p.jpg");
+    background-size: 50px 50px;
+    background-repeat:repeat;
+    
+    background:linear-gradient(#104E8B,lightblue);
+    
+    **/
+    margin:0 auto;
+    overflow-x:hidden;
+    font-family: sans-serif, Calibri, Arial, Cambria;
+}
+.mainPage{
+    width:1000px;
+    background:white;
+    margin:0 auto;
+}
+footer    {
+    background-color:#353535;
+    width:100%;
+    height:450px;
+    margin: 0 auto;
+    text-align:center;
+    padding-top:10px;
+    text-decoration:none;
+    margin-top:100px;
+}
+footer i{
+    color:ghostwhite;
+    margin-top:10px;
+    padding-left:20px;
+    text-align:center;
+}
+footer i:hover{
+    color:gray;
+}
+footer h1, footer h2, footer h3, footer p,footer a{
+    color:lightgray;
+    text-decoration:none;
+}
+.title{
+    padding:5px;
+    margin:0 auto;
+    text-align:center;
+}
+
+#tabs2{
+    //width:80%;  // use media queries when screen expands by 403+17 px expand tabs2 same amount
+    //min-width:1000px;
+    width:1000px;
+    margin:0 auto;
+}
+#tabs{
+    width:99%;
+    margin:0 auto;
+}
+#navbar2_real{
+    background:black;
+    margin:0 auto;
+    width:100%;
+}
+#navbar2_real li{
+    background:black;
+}
+#navbar2_real li a{
+    color:lightskyblue;
+}
+#navbar2{
+    margin-top:-5px;
+    width:100%;
+    margin-left:-5px; 
+}
+#main{
+    width:100%;
+    overflow:auto;
+    margin:0 auto;
+}
+@media all and (min-width:800px){
+    #custom{
+        height:50px;
+    }
+}
+#tabs-a, #tabs-b, #tabs-c{
+    width:94%;
+}
+#preloader  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    z-index: 99;
+    height: 700%;
+}
+
+#status  {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 45vh;
+    background-image: url("../images/Preloader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+}
+a{
+    text-decoration:none;
+}
+.resourceTag{
+    border-radius:5px;
+    background-color:#f6f9fa;
+    padding:10px;
+    width:98%;
+    text-indent:10px;
+    -webkit-transition:0.3s ease-in;
+    transition:0.3s ease-in;
+}
+.resourceTag:hover{
+    background-color:#eaedee;
+}
+.resourceTag p{
+    font-weight:bold;
+}
+.fa-file-text{
+    color:dodgerblue;
+}
+.fa-external-link-square{
+    color:dodgerblue;
+}

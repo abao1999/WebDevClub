@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<div id="custom" class="navbar navbar-default" role="navigation" style="z-index:100;">
+            <div class="navbar-header">
+                <img src="../../../images/laptopicon.png" alt="" style="height:30px; width:30px;margin-top:10px;"/>
+                <a class="navbar-brand" href="#"> 
+                    Web Dev Club
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder" style = "margin-top:7px;">                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-menubuilder" id="nav">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../../landingpage.php" style="height:20px;"> Main Terminal</a></li>
+                    <li><a href="../cool/start.php" style="height:20px;"> Learn </a></li>
+                    <li><a href="../../codeeditorpage.php" style="height:20px;"> Code </a></li>
+                    <li><a href="../../members.php" style="height:20px;"> Members </a></li>
+                    <li><a href="../../newspage.php" style="height:20px;"> News</a></li>
+                    <li id="last_menu_item" class="dropdown"><a id = "dropdownlink" style="height:20px;" class = "dropdown-toggle" data-toggle ="dropdown" href="../account.php">My Account <b class = "caret"></b></a>
+                        <ul style="z-index:20;" class="dropdown-menu">
+                            <li><a href="../../account.php#!tabs-1"><span>My Profile</span></a></li>
+                            <li><a href="../../account.php#tabs-2"><span>Options</span></a></li>
+                            <li><a href="../../../account/login/logout.php"><span>Log out</span></a></li>
+                        </ul>
+                        <script>
+                            var dropdownlink = document.getElementById('dropdownlink');
+                            if ($(window).width() > 800) {
+                                dropdownlink.className = 'dropdown-toggle disabled';
+                            }
+                            else {
+                                dropdownlink.className = 'dropdown-toggle';
+                            }
+                            window.addEventListener('resize', function (event) {
+                                if ($(window).width() > 800) {
+                                    dropdownlink.className = 'dropdown-toggle disabled';
+                                }
+                                else {
+                                    dropdownlink.className = 'dropdown-toggle';
+                                }
+                            });
+
+                        </script>
+                    </li>
+                </ul>
+            </div>
+        </div>

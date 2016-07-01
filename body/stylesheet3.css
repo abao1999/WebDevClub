@@ -1,0 +1,79 @@
+body{
+    color:black;
+    text-decoration:none;
+    font-family:sans-serif, Calibri, Cambria, Arial;
+    overflow-x:hidden;
+    margin: 0 auto;
+    /**background:#f5f5f5;**/
+    background:url("../images/texture1.jpg");
+    background-repeat:repeat;
+}
+section{
+    margin:0 auto;
+    background:white;
+    width:80%;
+    height:600px;
+    overflow:auto;
+    text-align:center;
+    margin-bottom:100px;
+    border-radius:6px;
+}
+footer    {
+    background-color:#353535;
+    width:100%;
+    height:450px;
+    margin: 0 auto;
+    text-align:center;
+    padding-top:10px;
+    text-decoration:none;
+    margin-top:100px;
+}
+footer i{
+    color:ghostwhite;
+    margin-top:10px;
+    padding-left:20px;
+    text-align:center;
+}
+footer i:hover{
+    color:gray;
+}
+footer h1, footer h2, footer h3, footer p,footer a{
+    color:lightgray;
+    text-decoration:none;
+}
+#title0_1{
+    color:white;
+    padding:20px;
+    border-bottom:2px solid gray;
+    text-align:center;
+}
+.hidden{
+    visibility:hidden;
+    font-size:0;
+    width:0;
+    padding:0;
+    height:0;
+}
+
+#preloader  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    z-index: 99;
+    height: 700%;
+}
+
+#status  {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 45vh;
+    background-image: url("../images/Preloader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+}

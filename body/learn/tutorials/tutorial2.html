@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Dev Club - Tutorials</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta HTTP-EQUIV="refresh" content="18000; URL=../../../account/login/logout.php">
+        <link href="../resources/tutstyle.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="../../../images/laptopicon.png" type="image/png"/>
+        <link rel="stylesheet" type="text/css" href="../../../bootstrap.css"/>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </head>
+    <body>
+       <div id = "navcontainer">
+            <div style = "height:50px; width:100%; background:midnightblue; border-bottom:2px solid lightblue;">
+                <script>
+                    //$('#navcontainer').empty();
+                    $('#navcontainer').load('../resources/navbar.html');
+                </script>
+            </div>
+        </div>
+
+        <div id="title0_1">
+            <h1> Code Samples and Tutorials  </h1>
+            <i id="eye1" class="fa fa-eye-slash"></i>
+            <script>
+                $('#eye1').click(function () {
+                    $('#menu').slideToggle();
+                    $('#content').toggleClass('extendToFull');
+                    $('#eye1').toggleClass('fa-eye-slash').toggleClass('fa-eye');
+                });
+            </script>
+        </div>
+        <div style="overflow-x:auto;">
+        <div id ="menuandcontentcontainer"> 
+            <div id="menu">
+                <script>
+                    $(function () {
+                        //$("#menu").hide();
+                        $("#menu").load("../resources/menu.html");
+                        //$("#menu").fadeIn('slow');
+                    });
+                </script>
+            </div>
+            <div id="content">
+
+                <h1>Getting Started: Create Your First NetBeans Project</h1>
+                <p>In order to start developing your first web-page, you need to install NetBeans, a powerful multi-platform IDE.</p>
+                <p>You can download NetBeans through the following link:</p>
+                <p><a href = "https://netbeans.org/downloads">https://netbeans.org/downloads/</a></p>
+                <br>
+                <p>If you need assistance with the installation process, contact us or scroll down to view our tutorial.</p>
+                <br><br>
+                <img src = "http://intixtech.com/wp-content/uploads/2015/05/netbeans-logo.png"/>
+                <br><br>
+                <h3><strong>Step 1: </strong><span style = "color:blue; font-style:italic;">Download</span></h3>
+                <p>Since we are going to focus on web development, you must download the version of NetBeans that supports HTML5 and PHP technologies</p>
+                <p>Therefore, we recommend the full version.</p>
+                <p>It is the rightmost option, labeled "All"</p>
+                <img src = "https://ui.netbeans.org/docs/hi/nbi/images/nbi-download-table.png"/>
+                <br><br>
+                <h3><strong>Step 2: </strong><span style = "color:blue; font-style:italic;">Install</span></h3>
+                <p>Open the downloaded package to install. Reference this <a target = "guide" href = "https://netbeans.org/community/releases/80/install.html">guide</a> for assistance:</p>
+                <p>Once you are finished with this step, you should be able to open the NetBeans IDE</p>
+                <p>A console will pop up with a start page. Next, you need to create a NetBeans Project.:</p>
+                <img src ="http://webterranean.net/wp/wp-content/uploads/2013/04/0003-20-netbeans-ide.jpg"/>
+                <br><br>
+                <h3><strong>Step 3: </strong><span style = "color:blue; font-style:italic;">Project Setup</span></h3>
+                <p>This is the final step! We are almost there!!!</p>
+                <br>
+                <p>To create a new project, do the following:</p>
+                <p><strong>1.</strong> Click on the File tab on the top of the screen and select the first option - New Project</p>
+                <BLOCKQUOTE>Alternatively, you can click the second icon to the left of the top-left corner of the screen</BLOCKQUOTE>
+                <p><strong>2.</strong> Then, select the type of project you want to create. You are just getting started with Web Development, so choose HTML5</p>
+                <BLOCKQUOTE> The project is automatically saved in a directory on your computer. This folder is likely called "NetBeansProjects"</BLOCKQUOTE>
+                <p><strong>3.</strong> An index.html file will be automatically created. This is your main file. It is the "Start Page." You will learn more about this later.</p>
+                <BLOCKQUOTE> For now, familiarize yourself with the layout and design of the NetBeans IDE.</BLOCKQUOTE>
+                <br><br>
+                <p><span style = "font-family:Comic-Sans Arial; color:green; font-size:30px;">NOW YOU CAN START YOUR CODING LESSONS !!!<span></p>
+                            <br><br><br><br>
+                            <p style = "float:left;"><a class = "menuItem" href ="tutorial1.html">Back</a></p>
+                            <p style = "text-align:right">Continue To: <a class = "menuItem" href ="tutorial3.html">Lesson 2: Basic Concepts</a></p>
+
+
+
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <h1> Web Dev Club </h1>
+        <br><br>
+        <p>Phone: (602)-819-5728</p>
+        <p>Email: <a href="mailto:anthonybao1999@gmail.com">anthonybao1999@gmail.com</a></p>
+        <p>Email: <a href="mailto:richardbao419@gmail.com">richardbao419@gmail.com</a></p>
+        <p>Email: <a href="mailto:njohns132@gmail.com">njohns132@gmail.com</a></p>
+        <a target="social media 1" href="https://www.facebook.com/pages/Web-Dev-Club/1611907219084201?skip_nax_wizard=true"><i class="fa fa-facebook fa-2x"></i></a>
+        <p> Thank you for visiting </p>
+        <p> Click <a href="../../account/login/welcome.php#onlineCounter" style="color:lightskyblue;"><strong>HERE</strong></a> to see online activity</p>
+        <a href="#">Back to top</a>
+    </footer>
+    <div style="background:black; text-align:center; color:white!important; width:100%; padding:20px;">
+        <p>Content Copyright 2015 Anthony Bao and Richard Bao. All rights reserved</p>
+    </div>
+    </body>
+    </html>
+
+            

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Dev Club - Tutorials</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta HTTP-EQUIV="refresh" content="18000; URL=../../../account/login/logout.php">
+        <link href="../resources/tutstyle.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="../../../images/laptopicon.png" type="image/png"/>
+        <link rel="stylesheet" type="text/css" href="../../../bootstrap.css"/>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <div id = "navcontainer">
+            <div style = "height:50px; width:100%; background:midnightblue; border-bottom:2px solid lightblue;">
+                <script>
+                    //$('#navcontainer').hide()
+                    //$('#navcontainer').empty();
+                    $('#navcontainer').load('../resources/navbar.html');
+                    //$('#navcontainer').fadeIn(1000);
+                </script>
+            </div>
+        </div>
+
+        <div id="title0_1">
+            <h1> Code Samples and Tutorials  </h1>
+            <i id="eye1" class="fa fa-eye-slash"></i>
+            <script>
+                $('#eye1').click(function () {
+                    $('#menu').slideToggle();
+                    $('#content').toggleClass('extendToFull');
+                    $('#eye1').toggleClass('fa-eye-slash').toggleClass('fa-eye');
+                });
+            </script>
+        </div>
+
+        <div style="overflow-x:auto;">
+            <div id ="menuandcontentcontainer"> 
+                <div id="menu">
+                    <script>
+                        $(function () {
+                            //$("#menu").hide();
+                            $("#menu").load("../resources/menu.html");
+                            //$("#menu").fadeIn('slow');
+                        });
+                    </script>
+                </div>
+                <div id="content">
+
+                    <h1>Introduction</h1>
+                    <p>The Internet is a very popular place. As of 2014, the number of active web-sites has passed 1 billion, and the global Internet-using population has surpassed 2.4 billion. Every minute, Google receives over 4 million search requests. However, despite its popularity, few Internet users actually understand the "inner workings" of web development.</p>
+                    <p>But since you are in this club, you will understand the concepts of web development, and eventually, you will create your own web-site.</p>
+                    <br><br>
+                    <h3>Why Learn Web Development</h3>
+                    <p>Information and communications systems have become integral to our modern technological society, and programming skills attract increasing demand in industry and business</p>
+                    <p>There are many reasons for learning web development, and here are just a few:</p>
+                    <ol>
+                        <li><strong>Influence</strong>
+                            <ul>
+                                <li>You can spread your influence to millions of people around the world</li>
+                                <li>You can present and publish your ideas to a wider audience</li>
+                                <li>You can create an online startup and market web services</li>
+                            </ul>
+                        </li>
+                        <li><strong>Respect</strong>
+                            <ul>
+                                <li>You will gain confidence</li>
+                                <li>You will develop your programming skills</li>
+                            </ul>
+                        </li>
+                        <li><strong>Personal Satisfaction</strong>
+                            <ul>
+                                <li>You can create cool stuff</li>
+                                <li>You can show Off</li>
+                                <li>YOU WILL HAVE <span style = "color:blue;">F</span><span style = "color:orange;">U</span><span style = "color:green;">N</span></li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <br>
+                    <br>
+                    <h3>Course Outline</h3>
+                    <hr>
+                    <br>
+                    <p>Throughout the first half of the year, we will focus on the fundamentals of web-page design.</p>
+                    <p>Mostly, this will involve learning HTML and CSS languages.</p>
+                    <p>In the second half of the year, we will focus on more advanced web languages that you can use to create awesome features.</p>
+                    <p>Mostly, this will involve learning languages like Javascript and PHP.</p>
+                    <p>Also, you will learn how to host your own web-sites and web-apps.</p>
+                    <p>Besides learning the concepts, we will experiment in writing code.</p>
+                    <p>There is no homework, but we will <span style = "font-style:italic;">recommend</span> weekly activities or projects for your to work on.</p>
+                    <p>Students are free to work together or chill out.</p>
+                    <br><br>
+                    <h3>Extra Info</h3>
+                    <hr>
+                    <br>
+                    <p>This will be a laid-back club. We will not move too fast, and we want you to relax and have fun.</p>
+                    <p>There will be a point system in the club.</p>
+                    <p style = "text-indent:20px;"> - Points will be rewarded for participation</p>
+                    <p style = "text-indent:20px;"> - Also, they will be rewarded for good code or amazing ideas.</p>
+                    <p style = "text-indent:20px;"> - You can get awesome and delicious prizes if you win enough points.</p>
+                    <br><br><br>
+                    <p style = "float:right;">Continue To: <a class = "menuItem" href ="tutorial2.html">Lesson 2: Getting Started</a></p>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <h1> Web Dev Club </h1>
+            <br><br>
+            <p>Phone: (602)-819-5728</p>
+            <p>Email: <a href="mailto:anthonybao1999@gmail.com">anthonybao1999@gmail.com</a></p>
+            <p>Email: <a href="mailto:richardbao419@gmail.com">richardbao419@gmail.com</a></p>
+            <p>Email: <a href="mailto:njohns132@gmail.com">njohns132@gmail.com</a></p>
+            <a target="social media 1" href="https://www.facebook.com/pages/Web-Dev-Club/1611907219084201?skip_nax_wizard=true"><i class="fa fa-facebook fa-2x"></i></a>
+            <p> Thank you for visiting </p>
+            <p> Click <a href="../../account/login/welcome.php#onlineCounter" style="color:lightskyblue;"><strong>HERE</strong></a> to see online activity</p>
+            <a href="#">Back to top</a>
+        </footer>
+        <div style="background:black; text-align:center; color:white!important; width:100%; padding:20px;">
+            <p>Content Copyright 2015 Anthony Bao and Richard Bao. All rights reserved</p>
+        </div>
+    </body>
+</html>

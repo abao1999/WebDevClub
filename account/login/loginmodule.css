@@ -1,0 +1,96 @@
+body{
+    background-color:white;
+    color:black;
+    margin:0 auto;
+    font-family:sans-serif, Calibri, Cambria, Arial;
+    overflow-x:hidden;
+}
+#header{
+    text-align:center;
+    color:white !important;
+    width:100%;
+    padding-top:20px;
+    padding-bottom:4px;
+    background:midnightblue;
+}
+
+.account_buttons{
+    background:black;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid ghostwhite;
+    width:100px;
+    height:40px;
+    text-align:center;
+    opacity:0.8;
+    color:white;
+    font-family:sans-serif;
+    font-size:18px;
+    margin-top:30px;
+}
+.account_buttons:hover{
+    background:midnightblue;
+    border:3px solid white;
+}
+span {
+    color:red;
+}
+#login {
+    margin-left:auto;
+    margin-right:auto;
+    width:300px; // adjust width of login 
+    float:left;
+    border-radius:10px;
+    font-family:raleway;
+    border:2px solid #ccc;
+    padding:10px 40px 25px;
+    margin-top:70px
+}
+.LoginInputLabel    {
+    color: darkblue;
+}
+input[type=text],input[type=password] {
+    width:100%;
+    padding:10px;
+    margin-top:8px;
+    border:1px solid #ccc;
+    padding-left:5px;
+    font-size:16px;
+    font-family:raleway
+}
+input[type=submit] {
+    width:100%;
+    background-color:midnightblue;
+    color:white;
+    border:2px solid black;
+    padding:10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px
+}
+input[type=submit]:hover {
+    background:lightskyblue;
+    border:2px solid white;
+}
+#registerLink   {
+    text-align:center;
+}
+#profile {
+    padding:50px;
+    border:1px dashed grey;
+    font-size:20px;
+    background-color:#DCE6F7
+}
+
+a {
+    text-decoration:none;
+    color:#6495ed
+}
+i {
+    color:#6495ed
+}
+
+
+

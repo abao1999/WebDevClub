@@ -1,0 +1,45 @@
+body    {
+    text-align:center;
+}
+section{
+    margin:0 auto;
+    overflow:auto;
+    text-align:center;
+    margin-bottom:100px;
+}
+
+th, td  {
+    border: solid 2px lightgray;
+    text-align:center;
+}
+.privelegemenu  {
+    text-decoration:none;
+    font-family: fantasy;
+    font-size: 50px;
+    line-height:100%;
+    color:blue;
+}
+.privelegemenu:hover    {
+    color: #3387CC;
+}
+.coolcell:hover   {
+    background:lightblue;
+} 
+
+#chatbox    {
+    height:498px;
+    width:80%;
+    background-image: -webkit-linear-gradient(left, white 10px, transparent 10px), -webkit-linear-gradient(right, white 10px, transparent 10px), -webkit-linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
+    background-image: -moz-linear-gradient(left, white 10px, transparent 10px), -moz-linear-gradient(right, white 10px, transparent 10px), -moz-linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
+    background-image: -ms-linear-gradient(left, white 10px, transparent 10px), -ms-linear-gradient(right, white 10px, transparent 10px), -ms-linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
+    background-image: -o-linear-gradient(left, white 10px, transparent 10px), -o-linear-gradient(right, white 10px, transparent 10px), -o-linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
+    background-image: linear-gradient(left, white 10px, transparent 10px), linear-gradient(right, white 10px, transparent 10px), linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
+    background-size: 100% 100%, 100% 100%, 100% 31px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 31px;
+    font-family: Arial, Helvetica, Sans-serif;
+    padding: 8px;
+    overflow-y:scroll;
+}

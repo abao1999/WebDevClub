@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<style>
+    a{
+        line-height:20px;
+    }
+</style>
+<div>
+  <input type="button" value="Tutorials" id="tutorialButton" class = "menuSection"/>
+    <div id = "tutorials" style = "margin-bottom:10px;">
+        <a class = "menuItem" href = "../tutorials/tutorial1.html">Introduction</a>
+        <br>
+        <a class = "menuItem" href = "../tutorials/tutorial2.html">Getting Started</a>
+        <br>
+        <a class = "menuItem" href = "../tutorials/tutorial3.html">Basic Concepts</a>
+        <br>
+    </div>
+</div> 
+<div>
+  <input type="button" value="References" id="referenceButton" class = "menuSection"/>
+    <div id = "reference" style = "margin-bottom:10px;">
+        <a class = "menuItem" href = "../cheatsheets/cheatsheet1.html">HTML Tags</a>
+        <br>
+        <a class = "menuItem" href = "../cheatsheets/cheatsheet2.html">Color Codes</a>
+        <br>
+        <a class = "menuItem" href = "">Pending...</a>
+        <br>
+    </div>
+</div> 
+<div>
+  <input type="button" value="Challenges" id="challengeButton" class = "menuSection"/>
+    <div id = "challenges" style = "margin-bottom:10px;">
+        <a class = "menuItem" href = "">Pending...</a>
+        <br>
+        <a class = "menuItem" href = "">Pending...</a>
+        <br>
+        <a class = "menuItem" href = "">Pending...</a>
+        <br>
+    </div>
+</div> 
+
+ <script>
+            $('#referenceButton').click(function () {
+                $('#reference').slideToggle();
+            });
+            $('#tutorialButton').click(function () {
+                $('#tutorials').slideToggle();
+            });
+            $('#challengeButton').click(function () {
+                $('#challenges').slideToggle();
+            });
+</script>
+

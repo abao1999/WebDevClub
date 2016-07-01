@@ -1,0 +1,685 @@
+<html>
+
+<head>
+<meta name=Title content="">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=macintosh">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Courier New";
+	panose-1:2 7 3 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\FF2D\FF33 \660E\671D";}
+@font-face
+	{font-family:"\FF2D\FF33 \660E\671D";}
+@font-face
+	{font-family:Monaco;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+code
+	{font-family:Courier;}
+pre
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:Courier;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+span.HeaderChar
+	{font-family:"Times New Roman";}
+span.FooterChar
+	{font-family:"Times New Roman";}
+span.HTMLPreformattedChar
+	{font-family:Courier;}
+.MsoChpDefault
+	{font-family:Cambria;}
+ /* Page Definitions */
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><b>Openshift Tutorial
+for Mac Users</b></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal><b>Make an Openshift account</b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Set up Ruby and Git and Openshift Client Tools (rhc)</b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>1. To verify ruby installation, run the following commands
+in the command line (terminal):</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='background:#F0F3F5;word-break:break-all'><span
+style='font-size:10.0pt;font-family:Monaco;color:#003D6E'>$ ruby -e 'puts
+&quot;Welcome to Ruby&quot;'</span></p>
+
+<p class=MsoNormal style='background:#F0F3F5;word-break:break-all'><span
+style='font-size:10.0pt;font-family:Monaco;color:#003D6E'>&nbsp;Welcome to Ruby</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>2. To verify Git installation, run:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>$ git --version </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>git version 1.9.3 (Apple Git-50)</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>3. Use RubyGems library system to install and run OpenShift
+gem (rhc) by running:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='background:#F0F3F5;word-break:break-all'><span
+style='font-size:10.0pt;font-family:Monaco;color:#003D6E'>$ sudo gem install
+rhc</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Making Your Project</b></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal style='background:#F0F3F5;word-break:break-all'><span
+style='font-size:10.0pt;font-family:Monaco;color:#003D6E'>$ rhc setup</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>Login to openshift.redhat.com: </span><a
+href="mailto:user@example.com"><span style='font-size:10.0pt;font-family:Monaco;
+background:transparent'>user@example.com</span></a></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>Password: password</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>OpenShift can create and store a token on disk which
+allows to you to access the server without using your password. The key is
+stored in your home directory and should be kept secret. You can delete the key
+at any time by running 'rhc logout'. Generate a token now? (yes|no) yes
+Generating an authorization token for this client ... lasts about 1 day</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>No SSH keys were found. We will generate a pair of keys
+for you. Created: C:\Users\User1\.ssh\id_rsa.pub</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>Your public ssh key must be uploaded to the OpenShift
+server to access code. Upload now? (yes|no) yes </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>Since you do not have any keys associated with your
+OpenShift account, your new key will be uploaded as the 'default' key Uploading
+key 'default' from C:\Users\User1\.ssh\id_rsa.pub ... done</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>IMPORTANT: remember name and location of your ssh key. In
+this case, the name of the public ssh key is default.pub. The name of the
+private one is default. </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>IMPORTANT: IF you want to create your own ssh keys, then see
+<b>PAGE 5</b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>Checking for a domain ... none Your domain is unique to
+your account and is the suffix of the public URLs we assign to your
+applications. You may configure your domain here or leave it blank and use 'rhc
+domain create' to create a domain later. You will not be able to create
+applications without first creating a domain. Please enter a domain (letters and
+numbers only) |&lt;none&gt;|: MyDomain Your domain name 'MyDomain' has been
+successfully created</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Now to create the main cartridge for your application:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='background:#F0F3F5;word-break:break-all'><span
+style='font-size:10.0pt;font-family:Monaco;color:#003D6E'>Checking for
+applications ... none&nbsp; Run 'rhc app create' to create your first
+application.&nbsp; Do-It-Yourself&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; diy-0.1 JBoss Application Server
+7.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; jbossas-7 JBoss Enterprise Application Platform
+6.0 rhc app create &lt;app name&gt; jbosseap-6.0 Jenkins Server
+1.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rhc app create &lt;app
+name&gt; jenkins-1.4 Node.js
+0.10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; nodejs-0.10 PHP
+5.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; php-5.3 PHP
+5.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; php-5.4 Perl
+5.10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; perl-5.10 Python
+2.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; python-2.6 Python 2.7 Community
+Cartridge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rhc
+app create &lt;app name&gt; python-2.7 Python 3.3 Community
+Cartridge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rhc
+app create &lt;app name&gt; python-3.3 Ruby
+1.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; ruby-1.8 Ruby
+1.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; ruby-1.9 Tomcat 6 (JBoss EWS 1.0)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; jbossews-1.0 Tomcat 7 (JBoss EWS
+2.0)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; jbossews-2.0 Zend Server
+5.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rhc app create &lt;app name&gt; zend-5.6&nbsp; You are using 0 of 3 total gears
+The following gear sizes are available to you: small&nbsp; Your client tools
+are now configured.</span></p>
+
+<p class=MsoNormal style='line-height:15.0pt;background:white'><span
+style='font-size:10.5pt;font-family:Helvetica;color:#404040'>&nbsp;</span></p>
+
+<p class=MsoNormal>Now create the main cartridge for your application with:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='background:#F0F3F5;word-break:break-all'><span
+style='font-size:10.0pt;font-family:Monaco;color:#003D6E'>$ rhc app create
+&lt;app_name&gt; &lt;web_cartridge_name&gt;</span></p>
+
+<p class=MsoNormal style='line-height:15.0pt;background:white'><span
+style='font-size:10.5pt;font-family:Helvetica;color:#404040'>&nbsp;</span></p>
+
+<p class=MsoNormal>For example, to create a PHP 5.4 cartridge, I would run:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='background:#F0F3F5;word-break:break-all'><span
+style='font-size:10.0pt;font-family:Monaco;color:#003D6E'>$ rhc app create
+myfirstphpapp php-5.4</span></p>
+
+<p class=MsoNormal style='line-height:15.0pt;background:white'><span
+style='font-size:10.5pt;font-family:Helvetica;color:#404040'>&nbsp;</span></p>
+
+<p class=MsoNormal>By creating your Openshift application in this way, using
+the command line, Openshift automatically creates a git clone for your
+application, which you can then access and edit. To make changes:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>$ git add .</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Monaco;color:#003D6E;
+background:transparent'>$ git commit -m &quot;A change to my application&quot;</span></p>
+
+<p class=MsoNormal style='background:#F0F3F5;word-break:break-all'><span
+style='font-size:10.0pt;font-family:Monaco;color:#003D6E'>$ git push</span></p>
+
+<p class=MsoNormal style='line-height:15.0pt;background:white'><span
+style='font-size:10.5pt;font-family:Helvetica;color:#404040'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:15.0pt;background:white'><span
+style='font-size:10.5pt;font-family:Helvetica;color:#404040'>However, this
+method is very stupid and clumsy. The better way is to connect with remote
+access to Netbeans. You will need your ssh key. </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Times'>&nbsp;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Go to File &gt; New Project </b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Create new PHP Application from Remote Server</b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Name your project</b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Set project URL to your Openshift application’s url. </b></p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
+<a href="http://yourappname-yourdomainname.rhcloud.com/">http://yourappname-yourdomainname.rhcloud.com/</a></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Set Upload Directory to /app-root/repo/php</b></p>
+
+<p class=MsoNormal>If that doesn’t work, try /app-root/repo</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Now comes the tricky path: Configure the Remote
+Connection</b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>1. Click manage</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>2. Name: Openshift</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>3. Host Name: yourappname-yourdomainname.rhcloud.com</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>4. User Name: 52bo372df292829308</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get
+this by going to your application page and get its URL, which should look like:</p>
+
+<p class=MsoNormal style='text-indent:.5in'><a
+href="https://openshift.redhat.com/app/console/application/52bo372df292829308-yourappname">https://openshift.redhat.com/app/console/application/52bo372df292829308-yourappname</a></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>5. Password: leave blank</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>6. Private key file: /Users/joeshmo/.ssh/default</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *replace
+joeshmo with the name of the user for your computer</p>
+
+<p class=MsoNormal style='margin-left:.5in'>If you created your own ssh then
+replace default with the name of your own private ssh. In that case be sure
+that you’ve added it onto the settings tab of your account</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>7. Known Hosts File: </p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *don’t
+make changes to this.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>8. Initial Directory: /var/lib/openshift/52bo372df292829308</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>9. Click okay, you have created your remote connection. Now
+click next, wait for everything to load, a message should show up notifying you
+that the files from the Openshift application will be downloaded onto netbeans.
+There should be at least one index.php file.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>10. Alright, now whenever you add a file to this project or
+make any changes and save it the Openshift application will be automatically
+updated.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Next Step: Adding Database:</b></p>
+
+<p class=MsoNormal><b>Add MySQL Database to existing Openshift Application:</b></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal style='background:#F0F3F5;word-break:break-all'><span
+style='font-size:10.0pt;font-family:Monaco;color:#003D6E'>$ rhc cartridge-add
+&lt;dbcartridge&gt; --app &lt;myappname&gt;</span></p>
+
+<p class=MsoNormal style='line-height:15.0pt;background:white'><span
+style='font-size:10.5pt;font-family:Helvetica;color:#404040'>&nbsp;</span></p>
+
+<p class=MsoNormal>For example, run this command in the command line:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>$ rhc cartridge add mysql-5.5 &#8211;a yourappname</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Add phpMyAdmin</b></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal>$ rhc cartridge add phpmyadmin-4 &#8211;a myapp</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Make note of all the credentials associated with your MySQL
+database cartridge. Record the User, Password, Database, Host, and Port.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>If you forget, you can find this info with the command line,
+or look at the MySQL cartridge and phpmyadmin.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>For the purposes of this tutorial I will provide the
+following credentials for a MySQL database:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>User: admin1234</p>
+
+<p class=MsoNormal>Password: bwoie9184bs02</p>
+
+<p class=MsoNormal>Database: yourappname</p>
+
+<p class=MsoNormal>Host: 127.1.2.3</p>
+
+<p class=MsoNormal>Port: 3306</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Port-Forward</b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='background:#F0F3F5;word-break:break-all'><span
+style='font-size:10.0pt;font-family:Monaco;color:#003D6E'>$ rhc port-forward -a
+&lt;app_name&gt;</span></p>
+
+<p class=MsoNormal style='line-height:15.0pt;background:white'><span
+style='font-size:10.5pt;font-family:Helvetica;color:#404040'>&nbsp;</span></p>
+
+<p class=MsoNormal>example:</p>
+
+<p class=MsoNormal>$ rhc port-forward &#8211;a yourappname</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Remote Access of MySQL Database from Netbeans</b></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal>1. Go to Services tab.</p>
+
+<p class=MsoNormal>2. Right click on Databases</p>
+
+<p class=MsoNormal>3. Select from the menu: New Connection</p>
+
+<p class=MsoNormal>4. Click Next</p>
+
+<p class=MsoNormal>5. Set Host to localhost</p>
+
+<p class=MsoNormal>6. Set Port to the port of the port-forward (should still be
+3306)</p>
+
+<p class=MsoNormal>7. Set Database to yourappname</p>
+
+<p class=MsoNormal>8. Enter User Name and Password for your MySQL database
+(this will let you access it)</p>
+
+<p class=MsoNormal>9. Go to the steps of the rest of the setup wizard. It
+should be straightforward.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Now you can terminate the port forward with control-c on
+command line.</p>
+
+<p class=MsoNormal><b>Creating Your Own SSH Keys</b></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal>Say your user is joeshmo.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>In the command line run:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>$ cd&nbsp;&nbsp;&nbsp; /Users/joeshmo/.ssh/</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>To view your keys:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>$ ls</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>To make new key:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>$ ssh-keygen &#8211;t rsa</b></p>
+
+<p class=MsoNormal><b>Generating public/private rsa key pair.</b></p>
+
+<p class=MsoNormal><b>Enter file in which o save the key
+(/Users/joeshmo/.ssh/id_rsa): my_key</b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>* you can name it whatever you want.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Then command line will then generate all the info. There is
+no need to set password</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>To verify you made the key, run </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>$ ls</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>To view the full tag of your public ssh key (which in this
+case is my_key.pub), download a text editor such as ATOM.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>On ATOM click on ATOM&gt;Install shell commands</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Then install shell commands.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>On command line, run:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>$ atom my_key.pub</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>This will open up ATOM text editor and display full tag for
+the my_key.pub ssh public key.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>References:</b></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal><a
+href="https://developers.openshift.com/en/getting-started-osx.html#client-tools"><b>https://developers.openshift.com/en/getting-started-osx.html#client-tools</b></a></p>
+
+<p class=MsoNormal><a
+href="https://blog.openshift.com/getting-started-with-sftp-and-openshift/"><b>https://blog.openshift.com/getting-started-with-sftp-and-openshift/</b></a></p>
+
+<p class=MsoNormal><a
+href="https://developers.openshift.com/en/managing-port-forwarding.html"><b>https://developers.openshift.com/en/managing-port-forwarding.html</b></a></p>
+
+<p class=MsoNormal><a
+href="https://www.youtube.com/watch?v=udWzBQaIyUw&amp;index=3&amp;list=LLmT6T0T0RT9EMGkOXZmdBRg"><b>https://www.youtube.com/watch?v=udWzBQaIyUw&amp;index=3&amp;list=LLmT6T0T0RT9EMGkOXZmdBRg</b></a></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+</div>
+
+</body>
+
+</html>
