@@ -1,4 +1,11 @@
-
+// <?php
+//  //session_set_cookie_params(0);
+//  session_start();
+//  if (!isset($_SESSION['SESS_MEMBER_ID'])) {
+//      header("Location: ../../../account/login/login-form.php");
+//  }
+//  include('detectidle.php');
+// ?>
 
 <!DOCTYPE html>
 <html>
