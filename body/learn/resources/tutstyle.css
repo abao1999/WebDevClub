@@ -1,3 +1,4 @@
+
 body{
     color:black;
     text-decoration:none;
@@ -15,7 +16,19 @@ body{
     padding:0;
     height:0;
 }
-
+#title0_1{
+    color:white;
+    padding:23px;
+    border-bottom:2px solid gray;
+    text-align:center;
+}
+#title0_1 h1{
+    color:white;
+    text-align:center;
+    font-size:2em;
+    font-weight:bolder;
+    padding:0!important;
+}
 footer    {
     background-color:#353535;
     width:100%;
@@ -36,17 +49,33 @@ footer i{
 footer i:hover{
     color:gray;
 }
-footer h1, footer h2, footer h3, footer p,footer a{
+footer h1, footer h2, footer h3, footer p, footer a{
     color:lightgray;
     text-decoration:none;
-}
-#title0_1{
-    color:white;
-    padding:23px;
-    border-bottom:2px solid gray;
     text-align:center;
 }
-
+footer h1{
+    font-size:2em;
+    font-weight: bold;
+}
+footer h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+footer h3{
+    font-size:1.17em;
+    font-weight:bold;
+}
+footer p{
+    font-size:1em;
+}
+.specialTutorialFooter p, .specialTutorialFooter a{
+    line-height:2.3em;
+}
+.specialTutorialFooter h1{
+    font-weight:bold;
+    font-family:sans-serif;
+}
 @media all and (min-width:800px){
     #custom{
         height:50px;
@@ -82,36 +111,10 @@ footer h1, footer h2, footer h3, footer p,footer a{
     padding:2%;
     background:white;
     float:right;
-    width:81%;
+    width:80%;
     min-height:1100px;
 }
-@media all and (max-width:1400px){
-    #menu{
-        width:20%;
-    }
-    #content{
-        width:76%;
-    }
 
-}
-@media all and (max-width:1500px){
-    #menu{
-        width:18%;
-    }
-    #content{
-        width:78%;
-    }
-
-}
-@media all and (max-width:1600px){
-    #menu{
-        width:16%;
-    }
-    #content{
-        width:80%;
-    }
-
-}
 @media all and (min-width:2000px){
     #menuandcontentcontainer{
         border:2px solid lightgrey;
@@ -159,4 +162,89 @@ td {
 }
 .extendToFull{
     width:96%!important;
+}
+canvas#canvastree {           
+    width: 750px;
+    height: 600px;
+    background:lightgreen;
+}
+#firstdescription{
+    width:100%;
+    height:1100px;
+    background:lightgreen;
+    margin-top:-600px;
+    float:right;
+}
+#firstdescription div#firstdescriptiontext1{
+    float:right;
+    width:270px;
+    height:600px;
+    color:white; 
+    line-height:60px; 
+    text-align:center;
+    background: -webkit-linear-gradient(forestgreen, lightgreen); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(forestgreen, lightgreen); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(forestgreen, lightgreen); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(forestgreen, lightgreen); /* Standard syntax */;
+}
+#firstdescription img{
+    width:100%;
+    height:80px;
+}
+#firstdescription div#firstdescriptiontext2{
+    width:100%;
+    height:400px;
+    margin-top:700px;
+    line-height:24px;
+    color:darkgreen;
+}
+#firstdescription #getstartednowbutton{
+    background:forestgreen;
+    text-align:center;
+    width:180px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:20px;
+    border:1px solid forestgreen;
+    float:right;
+    margin-right:150px;
+    color:lightgreen;
+    margin-top:-150px;
+    font-size:16px;
+    text-decoration:none;
+}
+#firstdescription #getstartednowbutton:hover{
+    background:#45B445;
+    border:2px solid white;
+    color:#99FF99;
+    text-decoration:none;
+}
+#pointerArrow1{
+    width:160px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-left:30%;
+    margin-top:-25px;
+    text-align:center;
+    background: -webkit-linear-gradient(#6CDA6C, #89E189); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#6CDA6C, #89E189); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6CDA6C, #89E189); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6CDA6C, #89E189); /* Standard syntax */;
+}
+#pointerArrow1:hover{
+    background:#6CDA6C;
+}
+#pointerArrow1 a{
+    text-decoration:none;
+    color:white;
+}
+#pointerArrow1.fa-angle-down{
+    color:white;
+}
+
+#next    {
+    padding:2%;
+    background:white;
+    float:right;
+    width:80%;
 }
