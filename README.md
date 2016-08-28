@@ -5,7 +5,7 @@ web dev club source code
 
 Made with php backend
 
-http://www.bswebdevclub.com/
+www.webdevclub.org
 
 http://webdevclub-awesometoad.rhcloud.com/
 
