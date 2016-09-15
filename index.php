@@ -1,3 +1,4 @@
+-*- mode: php;-*-
 <!DOCTYPE html>
 <html>
     <head>
